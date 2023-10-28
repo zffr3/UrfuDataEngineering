@@ -8,7 +8,7 @@ for i in content:
     for (index,item) in enumerate(nums):
         if (item == 'NA') | (item == '\n'):
             nums[index] = int((int(nums[index-1]) + int(nums[index+1]))/2)
-        if int(int(nums[index]) ** 0.5) < filterPoint:
+        if int(int(nums[index]) ** 0.5) > filterPoint:
             row += str(nums[index]) + ' ' 
     result.write(row + '\n')
 

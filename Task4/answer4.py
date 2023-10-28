@@ -1,7 +1,7 @@
 import csv
 
 with open('text_4_var_77', encoding='utf-8') as File:
-    reader = csv.reader(File)
+    reader = csv.reader(File) 
     resFile = open("result.txt", "a+", encoding='utf-8')
     resStr = ''
     filteredData = []

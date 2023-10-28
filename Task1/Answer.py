@@ -10,7 +10,7 @@ sortedFC = dict(sorted(characterFrequency.items()))
 
 resFile = open("result.txt", "a+")
 
-for key, value in characterFrequency.items():
+for key, value in sortedFC.items():
     resFile.write(str(key) + ':' + str(value) + '\n')
 
 resFile.close()
