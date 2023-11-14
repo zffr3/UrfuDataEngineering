@@ -29,8 +29,6 @@ for i in secondDiag:
     avrSd += 1   
 avrSd = sumSd / avrSd
 
-
-
 resultJs = {
     'sum': int(summ),
     'avr': int(avr),
